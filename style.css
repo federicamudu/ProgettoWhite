@@ -1,0 +1,332 @@
+/* Color: rgb(6, 57, 108)
+
+Font: Electrolize, Lato */
+
+
+h1,h2,h3,a, .h1, .h2, .h3, .a{
+    font-family: "Electrolize", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h4,h5,h6,p, .h4, .h5, .h6, .p{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.headerSection{
+    background-image: linear-gradient(0deg, rgba(6,57,108,0.8) 0%, rgba(6,56,108,0.8) 100%), url(./media/header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 100vw;
+}
+
+.titoloHeader{
+    color: white;
+    width: 100vw;
+    height: 60vh;
+    font-size: 50px;
+}
+
+.navbarColor{
+    background-color: rgb(6, 57, 108);
+    height: 7vh;
+}
+
+.navbar-brand{
+    color: white;
+    border-left: 2px solid white;
+    padding: 0px 0px 0px 15px;
+}
+
+.nav-link{
+    color: white;
+    border-left: 2px solid white;
+    padding: 0px 15px 0px 15px;
+
+}
+
+.links{
+    width: 90vw;
+}
+
+.gearsColor{
+    color: white !important;
+}
+
+.magaloremSection{
+    margin-top: 150px;
+}
+
+.titoloMegalorem{
+    color: black;
+    font-size: 50px;
+}
+
+.apicetti{
+    color: rgb(6, 57, 108);
+    font-size: 40px;
+}
+
+.card{
+    border: none;
+}
+
+.card-body{
+    min-height: 40vh;
+}
+
+.powerSection{
+    background-image: linear-gradient(0deg, rgba(6,57,108,0.8) 0%, rgba(6,56,108,0.8) 100%), url(./media/power-plant-4712830_1280.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 100vw;
+}
+
+.titlePowerLorem{
+    font-size: 50px;
+}
+
+.faColors{
+    color: white !important;
+}
+
+.rowTitlePowerlorem{
+    height: 50vh;
+}
+
+.colonnaLorem{
+    height: 60vh;
+    background-color: white;
+    font-family: "Electrolize", sans-serif;
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+}
+
+.colPanel{
+    background-color: rgb(6, 57, 108);
+    color: white;
+    border: 4px solid white;
+    position: relative;
+    top: -60px;
+    left: 40px;
+    z-index: 0;
+    height: 60vh;
+    
+}
+
+.paragraphPanel{
+    width: 60vh;
+}
+
+.imgPanel{
+    height: 500px;
+    width: 500px;
+}
+
+.titoloSovrapposto{
+    font-size: 30px !important;
+    font-family: "Electrolize", sans-serif;
+}
+
+.btnCustom{
+    border-radius: 0%;
+    background-color: rgb(6, 57, 108);
+    color: white;    
+}
+
+.rowDescription{
+    height: 30vh;
+}
+
+.Adipisicing{
+    font-size: 30px !important;
+    font-family: "Electrolize", sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.cardCity{
+    border-radius: 0%;
+    width: 400px;
+    height: 150px;
+}
+
+.imgMisure{
+    width: 400px;
+    height: 150px;
+    position: absolute;
+}
+
+.cardContainer{
+    height: 50vh;
+}
+
+.boxShadow{
+    width: 400px;
+    height: 150px;
+    background: linear-gradient(90deg, rgba(6,57,108,1) 0%, rgba(6,57,108,0.7323503521126761) 0%, rgba(255,255,255,0) 70%);
+    z-index: 1;
+    position: relative;
+    left: -30px;
+    top: -20px;
+}
+
+.cardText{
+    color: white;
+    z-index: 2;
+}
+
+.sfondoBlu{
+    background-color: rgb(6, 57, 108);
+    height: 30vh;
+    width: 100vw;
+}
+
+.rowThreeCards{
+    height: 20vh;
+    width: 100vw;
+}
+
+.cardCity2{
+    border-radius: 0%;
+    width: 250px;
+    height: 150px;
+    top: 200px;
+}
+.someStuffBox{
+    height: 60vh;
+}
+
+.bottomSomeStuff{
+    height: 70vh;
+}
+
+.cardDownload{
+    width: 250px;
+    height: 200px;
+    border-radius: 0%;
+    box-shadow: 10px  10px 10px #dedede9b,
+    -10px 10px 10px #dedede9b;
+}
+
+.btnCustomizzato{
+    color: gray;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.titleDescription{
+    color: rgb(6, 57, 108);
+}
+
+.rowDescription{
+    height: 70vh;
+}
+
+.line1{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    position: relative;
+}
+
+.line1::after{
+    content: "";
+    background: rgb(6, 57, 108);
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    height: 7px;
+    width: 200px;
+}
+
+.line2{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    position: relative;
+}
+
+.line2::after{
+    content: "";
+    background: rgb(6, 57, 108);
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    height: 7px;
+    width: 300px;
+}
+
+.line3{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    position: relative;
+}
+
+.line3::after{
+    content: "";
+    background: rgb(6, 57, 108);
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    height: 7px;
+    width: 420px;
+}
+
+.line4{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    position: relative;
+}
+
+.line4::after{
+    content: "";
+    background: rgb(6, 57, 108);
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    height: 7px;
+    width: 500px;
+}
+
+.line5{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    position: relative;
+}
+
+.line5::after{
+    content: "";
+    background: rgb(6, 57, 108);
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    height: 7px;
+    width: 370px;
+}
+
+.imgMisure2{
+    width: 90px;
+    height: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+.footerContainer{
+    height: 40vh;
+}
+
+.colOtherStuff{
+
+    right: 60px;
+    bottom: 100px;
+    background-color: rgb(6, 57, 108);
+    height: 40vh;
+    width: 35vw;
+}
+
+.colDisclaimer{
+    height: 100%;
+    padding-top: 50px;
+}
